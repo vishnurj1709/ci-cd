@@ -12,5 +12,4 @@ WORKDIR  /opt/apache-tomcat-10.1.17.tar.gz/bin/
 
 EXPOSE 8080 8085 8081 443 80
 
-CMD ["/opt/apache-tomcat-10.1.17/bin/catalina.sh","run"]
-~                                                         
+CMD ["/opt/apache-tomcat-10.1.17/bin/catalina.sh","run"]                                                      
